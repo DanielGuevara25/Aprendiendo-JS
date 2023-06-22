@@ -1,7 +1,7 @@
 function cargar_elemento(){
     var container = document.getElementById('container')
     var h1 = document.createElement('h1')
-    var texto  = documento.createTextNode('Daniel Guevara')
+    var texto  = document.createTextNode('Daniel Guevara')
     h1.appendChild(texto)
     container.appendChild(h1)
 }
